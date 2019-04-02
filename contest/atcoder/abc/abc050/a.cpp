@@ -5,8 +5,10 @@ using namespace std;
 typedef long long ll;
 
 int main(){
-        string a,b,c;
-        cin >> a >> b >> c;
-        cout << a[0] << b[0] << c[0] << endl;
+        int a,b;
+        char op;
+        cin >> a >> op >> b;
+        if(op == '-') cout << a-b << endl;
+        else cout << a+b << endl;
         return 0;
 }

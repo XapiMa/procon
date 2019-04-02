@@ -5,8 +5,14 @@ using namespace std;
 typedef long long ll;
 
 int main(){
-        string a,b,c;
-        cin >> a >> b >> c;
-        cout << a[0] << b[0] << c[0] << endl;
+        int h,w;
+        string s;
+
+        cin >> h >> w;
+        rep(i,h){
+                cin >> s;
+                cout << s << endl;
+                cout << s << endl;
+        }
         return 0;
 }
